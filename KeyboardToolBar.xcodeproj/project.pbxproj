@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0E9C8E189E593E00423512 /* KeyboardToolBarScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0E9C8D189E593E00423512 /* KeyboardToolBarScreen.png */; };
 		FC4034D7189DE763003B5C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4034D6189DE763003B5C8C /* Foundation.framework */; };
 		FC4034D9189DE763003B5C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4034D8189DE763003B5C8C /* CoreGraphics.framework */; };
 		FC4034DB189DE763003B5C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4034DA189DE763003B5C8C /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0E9C8D189E593E00423512 /* KeyboardToolBarScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyboardToolBarScreen.png; sourceTree = "<group>"; };
 		FC4034D3189DE763003B5C8C /* KeyboardToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4034D6189DE763003B5C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC4034D8189DE763003B5C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +128,7 @@
 		FC4034DD189DE763003B5C8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC0E9C8D189E593E00423512 /* KeyboardToolBarScreen.png */,
 				FC4034DE189DE763003B5C8C /* KeyboardToolBar-Info.plist */,
 				FC4034DF189DE763003B5C8C /* InfoPlist.strings */,
 				FC4034E2189DE763003B5C8C /* main.m */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0E9C8E189E593E00423512 /* KeyboardToolBarScreen.png in Resources */,
 				FC4034EF189DE763003B5C8C /* Images.xcassets in Resources */,
 				FC4034E1189DE763003B5C8C /* InfoPlist.strings in Resources */,
 				FC40350F189DE81B003B5C8C /* ViewController.xib in Resources */,
@@ -452,6 +456,7 @@
 				FC403507189DE763003B5C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC403508189DE763003B5C8C /* Build configuration list for PBXNativeTarget "KeyboardToolBarTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				FC40350A189DE763003B5C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
