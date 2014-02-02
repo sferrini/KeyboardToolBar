@@ -13,14 +13,14 @@
 		FC4034E1189DE763003B5C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4034DF189DE763003B5C8C /* InfoPlist.strings */; };
 		FC4034E3189DE763003B5C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4034E2189DE763003B5C8C /* main.m */; };
 		FC4034E7189DE763003B5C8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4034E6189DE763003B5C8C /* AppDelegate.m */; };
-		FC4034EA189DE763003B5C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4034E8189DE763003B5C8C /* Main.storyboard */; };
-		FC4034ED189DE763003B5C8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4034EC189DE763003B5C8C /* ViewController.m */; };
 		FC4034EF189DE763003B5C8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4034EE189DE763003B5C8C /* Images.xcassets */; };
 		FC4034F6189DE763003B5C8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4034F5189DE763003B5C8C /* XCTest.framework */; };
 		FC4034F7189DE763003B5C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4034D6189DE763003B5C8C /* Foundation.framework */; };
 		FC4034F8189DE763003B5C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4034DA189DE763003B5C8C /* UIKit.framework */; };
 		FC403500189DE763003B5C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4034FE189DE763003B5C8C /* InfoPlist.strings */; };
 		FC403502189DE763003B5C8C /* KeyboardToolBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC403501189DE763003B5C8C /* KeyboardToolBarTests.m */; };
+		FC40350E189DE81B003B5C8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40350C189DE81B003B5C8C /* ViewController.m */; };
+		FC40350F189DE81B003B5C8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC40350D189DE81B003B5C8C /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +44,15 @@
 		FC4034E4189DE763003B5C8C /* KeyboardToolBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyboardToolBar-Prefix.pch"; sourceTree = "<group>"; };
 		FC4034E5189DE763003B5C8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC4034E6189DE763003B5C8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC4034E9189DE763003B5C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC4034EB189DE763003B5C8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC4034EC189DE763003B5C8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC4034EE189DE763003B5C8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC4034F4189DE763003B5C8C /* KeyboardToolBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardToolBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4034F5189DE763003B5C8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FC4034FD189DE763003B5C8C /* KeyboardToolBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardToolBarTests-Info.plist"; sourceTree = "<group>"; };
 		FC4034FF189DE763003B5C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC403501189DE763003B5C8C /* KeyboardToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardToolBarTests.m; sourceTree = "<group>"; };
+		FC40350B189DE81B003B5C8C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC40350C189DE81B003B5C8C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC40350D189DE81B003B5C8C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				FC4034E5189DE763003B5C8C /* AppDelegate.h */,
 				FC4034E6189DE763003B5C8C /* AppDelegate.m */,
-				FC4034E8189DE763003B5C8C /* Main.storyboard */,
-				FC4034EB189DE763003B5C8C /* ViewController.h */,
-				FC4034EC189DE763003B5C8C /* ViewController.m */,
+				FC40350B189DE81B003B5C8C /* ViewController.h */,
+				FC40350C189DE81B003B5C8C /* ViewController.m */,
+				FC40350D189DE81B003B5C8C /* ViewController.xib */,
 				FC4034EE189DE763003B5C8C /* Images.xcassets */,
 				FC4034DD189DE763003B5C8C /* Supporting Files */,
 			);
@@ -230,7 +230,7 @@
 			files = (
 				FC4034EF189DE763003B5C8C /* Images.xcassets in Resources */,
 				FC4034E1189DE763003B5C8C /* InfoPlist.strings in Resources */,
-				FC4034EA189DE763003B5C8C /* Main.storyboard in Resources */,
+				FC40350F189DE81B003B5C8C /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4034ED189DE763003B5C8C /* ViewController.m in Sources */,
+				FC40350E189DE81B003B5C8C /* ViewController.m in Sources */,
 				FC4034E7189DE763003B5C8C /* AppDelegate.m in Sources */,
 				FC4034E3189DE763003B5C8C /* main.m in Sources */,
 			);
@@ -280,14 +280,6 @@
 				FC4034E0189DE763003B5C8C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FC4034E8189DE763003B5C8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC4034E9189DE763003B5C8C /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FC4034FE189DE763003B5C8C /* InfoPlist.strings */ = {
