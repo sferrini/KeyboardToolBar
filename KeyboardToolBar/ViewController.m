@@ -30,6 +30,9 @@ int sw = 0;
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //TextField1 FirstResponder
+    [self.textField1 becomeFirstResponder];
 }
 
 - (void)viewWillAppear:(BOOL)animated
